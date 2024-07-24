@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/Stylesheet/styles.css">
+    <link rel="stylesheet" href="/Stylesheet/aboutus.css">
+    <link rel="stylesheet" href="/Stylesheet/navbar.css">
+
+    <style>
+       
+
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+      
+
+     
+
+        
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateX(10px);
+        }
+
+        .feature-icon {
+            background-color: var(--primary-light);
+            color: var(--primary-dark);
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 15px;
+            box-shadow: 0 5px 15px rgba(38, 166, 154, 0.2);
+        }
+
+        .team-member {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--primary-light);
+            transition: transform 0.3s ease;
+        }
+
+        .team-member img:hover {
+            transform: scale(1.1);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+          overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+      
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+
+       
+
+        
+
+     
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+</body>
+
+   
+
+<body>
+
+ <!--Navbar-->
+ <nav class="navbar">
+    <a href="#" class="logo">Futsal Mania</a>
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#" class="active">About Us</a></li>
+        <li><a href="/HTML/services.html">Services</a></li>
+        <li><a href="/HTML/booking.html">Book Now</a></li>
+        <li><a href="/HTML/contact.html">Contact Us</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+
+
+<!-- About Us -->    
+
+  <section class="hero ">
+    <div class="hero-content">
+        <h1>Learn More About Us</h1>
+        <p>Discover our story, mission, and the team behind our success.</p>
+        <a href="#our-story" class="btn-explore">Explore More</a>
+    </div>
+</section>
+  
+
+    <main>
+        <section class="section ">
+            <div class="container">
+                <h2>OUR STORY</h2>
+                <p>Founded in 2010, our company has been at the forefront of innovation in [your industry]. We started with a simple idea: to create solutions that make a difference in people's lives. Over the years, we've grown from a small startup to a team of passionate professionals, all dedicated to turning that vision into reality.</p>
+                <p>Our journey has been marked by continuous learning, adaptation, and growth. We've faced challenges head-on and celebrated numerous milestones along the way. Today, we're proud to be a leading force in our field, trusted by clients around the world.</p>
+            </div>
+        </section>
+
+
+        <!-- Features -->
+
+        <!-- Our Mission -->
+        <section class="section grey lighten-4">
+            <div class="container">
+                <h2 class="center-align">Our Mission</h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="aboutus-card-panel center-align">
+                            <i class="material-icons large teal-text">sports_soccer</i>
+                            <h5>Promote Futsal</h5>
+                            <p>Increase awareness and participation in futsal across all age groups.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="aboutus-card-panel center-align">
+                            <i class="material-icons large teal-text">event_available</i>
+                            <h5>Easy Booking</h5>
+                            <p>Provide a seamless booking experience for futsal courts and facilities.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="aboutus-card-panel center-align">
+                            <i class="material-icons large teal-text">emoji_events</i>
+                            <h5>Foster Competition</h5>
+                            <p>Organize tournaments and leagues to encourage competitive play.</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="aboutus-card-panel center-align">
+                            <i class="material-icons large teal-text">groups</i>
+                            <h5>Build Community</h5>
+                            <p>Create a vibrant futsal community through events and social engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <div class="container">
+                <h2>OUR TEAM</h2>
+                <p>Behind every great company is a team of dedicated professionals. Meet some of the key people who make our success possible:</p>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Team Member 1">
+                            <h5>John Doe</h5>
+                            <p>CEO & Founder</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Team Member 2">
+                            <h5>Jane Smith</h5>
+                            <p>CTO</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Team Member 3">
+                            <h5>Mike Johnson</h5>
+                            <p>Head of Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>OUR JOURNEY</h2>
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>2010</h4>
+                            <p>Company founded</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>2015</h4>
+                            <p>Launched our flagship product</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>2018</h4>
+                            <p>Expanded to international markets</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>2023</h4>
+                            <p>Reached 1 million users milestone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+         <!-- Our Impact -->
+
+        
+         <section class="section">
+            <div class="container">
+                <h2 class="center-align">Our Impact</h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="stat-card">
+                            <i class="material-icons large teal-text">people</i>
+                            <h3 class="teal-text">100,000+</h3>
+                            <p>Active Players</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="stat-card">
+                            <i class="material-icons large teal-text">location_on</i>
+                            <h3 class="teal-text">50+</h3>
+                            <p>Locations</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="stat-card">
+                            <i class="material-icons large teal-text">event</i>
+                            <h3 class="teal-text">500+</h3>
+                            <p>Tournaments Organized</p>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="stat-card">
+                            <i class="material-icons large teal-text">star</i>
+                            <h3 class="teal-text">4.8/5</h3>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section grey lighten-4">
+            <div class="container">
+                <h2 class="center-align">What Our Players Say</h2>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="testimonial">
+                            <p>"Futsal Booking has revolutionized how I play. Easy bookings, great courts, and an amazing community!"</p>
+                            <p><strong>- Sarah K., Regular Player</strong></p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="testimonial">
+                            <p>"As a coach, I appreciate the quality of facilities and the support for organizing tournaments. It's top-notch!"</p>
+                            <p><strong>- Coach Mike, Local Futsal Team</strong></p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="testimonial">
+                            <p>"The app makes it so easy to find and book courts. I've met so many great players through Futsal Booking!"</p>
+                            <p><strong>- Alex R., Casual Player</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="center-align">Join Our Community</h2>
+                <div class="row">
+                    <div class="col s12 m8 offset-m2">
+                        <div class="card-panel">
+                            <p class="center-align">Whether you're a seasoned player or new to futsal, we welcome you to join our vibrant community. Book a court, join a league, or participate in our next tournament!</p>
+                            <div class="center-align">
+                                <a class="waves-effect waves-light btn-large" href="/HTML/booking.html"><i class="material-icons left">event</i>Book Now</a>
+                                <a class="waves-effect waves-light btn-large"
+                                   <a class="waves-effect waves-light btn-large" href="/HTML/contact.html"><i class="material-icons left">contact_mail</i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+         <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Futsal Booking System</h5>
+          <p class="grey-text text-lighten-4">Join us for the best futsal experience. We offer professional training, modern facilities, and a community of passionate players.</p>
+        </div>
+
+        <div class="col l2 offset-l1 s12">
+          <h5 class="white-text">Quick Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="../index.html" style="transition: color 0.3s;">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="#" style="transition: color 0.3s;">About Us</a></li>
+            <li><a class="grey-text text-lighten-3" href="/HTML/services.html" style="transition: color 0.3s;">Services</a></li>
+            <li><a class="grey-text text-lighten-3" href="/HTML/booking.html" style="transition: color 0.3s;">Book Now</a></li>
+            <li><a class="grey-text text-lighten-3" href="/HTML/contact.html" style="transition: color 0.3s;">Contact Us</a></li>
+            
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect with Us</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram"></i> Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2024 Futsal Booking System. All rights reserved.
+       
+      </div>
+    </div>
+  </footer>
+
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="/JS/script.js"></script>
+</body>
+</html>

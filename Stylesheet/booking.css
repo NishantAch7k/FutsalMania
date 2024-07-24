@@ -1,0 +1,197 @@
+ 
+        
+        
+        .hero {
+            background: linear-gradient(rgba(38, 166, 154, 0.8), rgba(0, 118, 108, 0.8)), url('https://images.unsplash.com/photo-1577412647305-991150c7d163?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-out;
+          }
+          
+          
+          .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            animation: fadeInUp 1s ease-out 0.5s;
+            animation-fill-mode: both;
+            color: white;
+          }
+
+          /* Header Styles */
+h2 {
+    color: #26a69a;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+          
+
+
+.input-field {
+    position: relative;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#searchInput {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+.search-results .result-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-results .result-item:hover {
+    background-color: #f0f0f0;
+}
+
+.input-field {
+    position: relative;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.input-field i.prefix {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #666;
+    cursor: pointer;
+}
+
+.booking-container{
+    
+    background-color: #c8ebe769;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+        .booking-section {
+            padding: 60px 0;
+        }
+
+        .booking-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .booking-card .card-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .booking-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .booking-card .card-content {
+            padding: 20px;
+        }
+
+        .booking-card .card-title {
+            color: var(--primary-dark);
+            font-weight: 600;
+        }
+
+        .btn-book {
+            background-color: var(--primary-color);
+            color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-book:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .animate-on-scroll.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* ... (previous styles remain the same) ... */
+
+        .search-section {
+            padding: 20px 0;
+            background-color: var(--primary-light);
+        }
+
+        .search-wrapper {
+            position: relative;
+        }
+
+        .search-wrapper input {
+            padding-left: 3rem;
+        }
+
+        .search-wrapper i.material-icons {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: var(--primary-color);
+        }
+
+        #search-results {
+            position: absolute;
+            width: 100%;
+            background: white;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        #search-results .collection-item {
+            cursor: pointer;
+        }
